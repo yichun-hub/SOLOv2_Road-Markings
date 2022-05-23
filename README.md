@@ -39,4 +39,5 @@
       python tools/test_ins.py configs/solov2/solov2_r101_fpn_8gpu_3x.py weights/homo_model_2/epoch_100.pth --show --out results_solo.pkl --eval segm
       
   ## 7. Visulization
+  The `class_names`should be modified.
       python tools/test_ins_vis.py configs/solov2/solov2_r101_fpn_8gpu_3x.py weights/homo_model_2/latest.pth --show --save_dir  work_dirs/val_homo_2data
