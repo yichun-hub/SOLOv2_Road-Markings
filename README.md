@@ -42,3 +42,13 @@
   The `class_names`should be modified.
   
       python tools/test_ins_vis.py configs/solov2/solov2_r101_fpn_8gpu_3x.py weights/homo_model_2/latest.pth --show --save_dir  work_dirs/val_homo_2data
+      
+  ## 8. Result
+  Train with the bird's eye view image model 
+  
+  Front View
+  ![image](https://github.com/yichun-hub/SOLOv2_Road-Markings/blob/main/result/front408.jpg)
+  
+  Bird's eye view
+  
+  ![image](https://github.com/yichun-hub/SOLOv2_Road-Markings/blob/main/result/homo408.jpg)
